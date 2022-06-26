@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import emblem from "./images/emblem.svg";
+import emblem from "./images/logo.png";
 import Web3 from "web3";
 import detectEtherumProvider from "@metamask/detect-provider";
 import { loadContract } from "./utils/loadContract";
@@ -85,7 +85,7 @@ function App() {
             <div className="container mainDiv">
               <div className="landingPage-heading-div">
                 <img src={emblem} alt="emblem" className="emblem" />
-                <h1>Decentralized Land Registration</h1>
+                <h1>Land Registration Dapp</h1>
               </div>
 
               <p className="welcome-p">

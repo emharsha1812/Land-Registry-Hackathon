@@ -12,7 +12,8 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "^4.0.3",
     "truffle-contract": "^4.0.31",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
