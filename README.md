@@ -45,7 +45,6 @@ Chain ID: 1337 Import accounts using private keys from ganache-cli to the metama
 Run client side
 Deploy smart contract to the (local) blockchain
 
-# on the Election-blockchain-class directory
 truffle migrate
 Note: Use truffle migrate --reset for re-deployments
 
